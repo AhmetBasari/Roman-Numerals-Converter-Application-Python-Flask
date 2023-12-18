@@ -29,10 +29,4 @@ def main_post():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-    # app.run(debug=True)
-    app.run(host='0.0.0.0', port=8080)
-=======
-    # app.run(debug=True)
     app.run(host='0.0.0.0', port=80)
->>>>>>> 923573701e518a01312166fb93d34f43f09a850d
