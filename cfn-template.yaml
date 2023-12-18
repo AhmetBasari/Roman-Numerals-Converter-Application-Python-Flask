@@ -23,7 +23,7 @@ Resources:
       KeyName: !Ref keyPair
 
       SecurityGroupIds:
-        - !Ref mySecGrp # second way: !GetAtt mySecGrp.GroupId
+        - !Ref beekSec # second way: !GetAtt beekSec.GroupId
 
       Tags:
         - Key: Name
@@ -43,7 +43,7 @@ Resources:
         cd ..
         python3 roman-numerals-converter-app.py
 
-  mySecGrp:
+  beekSec:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: accessible via web browser and terminal from anywhere # Required
