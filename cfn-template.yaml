@@ -36,7 +36,7 @@ Resources:
         dnf install python3-pip -y
         pip3 install flask
         cd /home/ec2-user
-        wget https://raw.githubusercontent.com/AhmetBasari/Roman-Numerals-Converter-Application-Python-Flask/main/roman-numerals-converter-app%20(1).py
+        wget https://raw.githubusercontent.com/AhmetBasari/Roman-Numerals-Converter-Application-Python-Flask/main/roman-numerals-converter-app.py
         mkdir templates && cd /home/ec2-user/templates
         wget https://raw.githubusercontent.com/AhmetBasari/Roman-Numerals-Converter-Application-Python-Flask/main/templates/index.html
         wget https://raw.githubusercontent.com/AhmetBasari/Roman-Numerals-Converter-Application-Python-Flask/main/templates/result.html
